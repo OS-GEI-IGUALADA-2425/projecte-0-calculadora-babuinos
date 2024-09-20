@@ -4,4 +4,5 @@
 
 #endif // CALC_H
 
-int multiplicació(int a, int b);
+double multiplicacio(double a, double b);
+double potencia(double a, double b);
