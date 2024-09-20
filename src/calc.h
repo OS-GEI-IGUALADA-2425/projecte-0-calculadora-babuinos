@@ -3,3 +3,5 @@
 
 
 #endif // CALC_H
+
+int multiplicació(int a, int b);
