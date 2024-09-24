@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <getopt.h>
-#include "calc.h"  
+#include "calc.h"
 
 void mostrar_ajuda() {
     printf("Ús: calc [OPCIONS]\n");
@@ -55,8 +55,8 @@ int main(int argc, char *argv[]) {
                 if (argc >= optind + 1) {
                     num1 = atof(optarg);
                     num2 = atof(argv[optind]);
-                    //printf("Resultat de la resta: %.2f\n", resta(num1, num2));
-                    printf("Not implemented yet!\n");
+                    printf("Resultat de la resta: %.2f\n", resta(num1, num2));
+                    //printf("Not implemented yet!\n");
                 } else {
                     printf("Falten arguments per a la resta.\n");
                     return 1;
@@ -97,8 +97,8 @@ int main(int argc, char *argv[]) {
                     printf("No es pot calcular l'arrel quadrada d'un número negatiu!\n");
                     return 1;
                 }
-                //printf("Resultat de l'arrel quadrada: %.2f\n", arrel(num1));
-                printf("Not implemented yet!\n");
+                printf("Resultat de l'arrel quadrada: %.2f\n", arrel(num1));
+                //printf("Not implemented yet!\n");
                 break;
 
             case 'p':
